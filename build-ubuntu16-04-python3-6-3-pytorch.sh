@@ -1,15 +1,15 @@
 #!/bin/bash -x
 source ~/.bashrc
 
-# roll you own python 3.6.3 on ubuntu 16.04
-# includes most anaconda libraries for deep learning
-# will get all te necessary components for the first few lessons of the 
-# fast.ai course season 2 - which is pytorch dependant
-# Integrated with Cloud Formation template
-
-# at the end of the install, log onto the console and run the following to
-# set the jupyter notebook password, otherwise you won't be able to log on
-# 
+## roll you own python 3.6.3 on ubuntu 16.04
+## includes most anaconda libraries for deep learning
+## will get all te necessary components for the first few lessons of the 
+## fast.ai course season 2 - which is pytorch dependant
+## Integrated with Cloud Formation template
+##
+## at the end of the install, log onto the console and run the following to
+## set the jupyter notebook password, otherwise you won't be able to log on
+## 
 
 
 
@@ -257,7 +257,7 @@ sudo -H python3.6 -m pip  install torchtext
 sudo -H python3.6 -m pip install awscli
 
 
-# installs ffmpeg for visualisations
+## installs ffmpeg for visualisations
 sudo -i add-apt-repository -y ppa:mc3man/trusty-media  
 sudo -i apt-get -y install ffmpeg  
 sudo -i apt-get -y install frei0r-plugins  
@@ -265,14 +265,14 @@ sudo -i apt-get -y install frei0r-plugins
 ## clone the fast.ai repos
 cd ~
 git clone https://github.com/fastai/fastai.git
-#git clone https://github.com/fastai/courses.git
+##git clone https://github.com/fastai/courses.git
 
 mkdir data
 sudo chown 
 unzip -q ~/downloads/dogscats.zip -d ~/data
 
 python3.6 -m jupyter notebook -y --generate-config
-# used to work on earlier versions echo "c.NotebookApp.password = u'anaconda'" >> $HOME/.jupyter/jupyter_notebook_config.py
+## used to work on earlier versions echo "c.NotebookApp.password = u'anaconda'" >> $HOME/.jupyter/jupyter_notebook_config.py
 echo "c.NotebookApp.ip = '*'" >> $HOME/.jupyter/jupyter_notebook_config.py
 echo "c.NotebookApp.open_browser = False" >> $HOME/.jupyter/jupyter_notebook_config.py
 
