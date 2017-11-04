@@ -15,6 +15,6 @@
 
 
 ### background
-this is setup for running on a p2.xlarge on AWS with NVIDIA GPU
-python libraries are compiled from source and all required dependancies are included
-by adding most of the Anaconda libraries this runs ML batches fairly reliably
+. this is setup for running on a p2.xlarge on AWS with NVIDIA GPU
+. python libraries are compiled from source and all required dependancies are included
+. by adding most of the Anaconda libraries this runs ML batches fairly reliably
