@@ -42,7 +42,7 @@ sudo apt-get update
 sudo apt-get -y install cuda
 sudo modprobe nvidia
 nvidia-smi
-rm cuda-repo-ubuntu1604_8.0.44-1_amd64.deb
+#rm -f cuda-repo-ubuntu1604_8.0.44-1_amd64.deb
 
 
 ## prepare for the python install
