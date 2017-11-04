@@ -4,3 +4,4 @@
 
 wget "https://raw.githubusercontent.com/cbaldie/fastai-v2-build/master/build-ubuntu16-04-python3-6-3-pytorch.sh" -O "build-ubuntu16-04-python3-6-3-pytorch.sh"
 bash build-ubuntu16-04-python3-6-3-pytorch.sh
+.
