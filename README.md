@@ -8,7 +8,7 @@
 2. bash build-ubuntu16-04-python3-6-3-pytorch.sh
 3. enter your password into the command line
 4. jupyter-notebook
-5 go to your web browser - ec2-34-208-92-193.us-west-2.compute.amazonaws.com:8888
+5. go to your web browser - ec2-34-208-92-193.us-west-2.compute.amazonaws.com:8888
 6. enter your password and you are good to go
 7. some of the paths in the jupyter notebook will be best to add /home/ubuntu/data/
 
