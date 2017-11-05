@@ -64,7 +64,6 @@ sudo -H python3.6 -m pip install asn1crypto
 sudo -H python3.6 -m pip install astroid
 sudo -H python3.6 -m pip install astropy
 sudo -H python3.6 -m pip install babel
-sudo -H python3.6 -m pip install backports
 sudo -H python3.6 -m pip install backports.shutil_get_terminal_size
 sudo -H python3.6 -m pip install bcolz
 sudo -H python3.6 -m pip install beautifulsoup4
