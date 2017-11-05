@@ -3,7 +3,7 @@
 ### check out http://www.fast.ai/ course for machine learning tuition
 
 
-### run this in your linux machine
+### run this in your linux machine - ubuntu user
 . This takes about 20 minutes to build and uses 12Gb of disk
 1. wget "https://raw.githubusercontent.com/cbaldie/fastai-v2-build/master/build-ubuntu16-04-python3-6-3-pytorch.sh" -O "build-ubuntu16-04-python3-6-3-pytorch.sh"
 2. bash build-ubuntu16-04-python3-6-3-pytorch.sh
@@ -12,7 +12,6 @@
 5. go to your web browser and enter your machine address:8888 eg. ec2-34-208-92-193.us-west-2.compute.amazonaws.com:8888
 6. enter your password and you are good to go
 7. some of the paths in the jupyter notebook will be best to add /home/ubuntu/data/
-
 
 
 ### background
