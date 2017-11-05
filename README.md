@@ -4,6 +4,7 @@
 
 
 ### run this in your linux machine
+. This takes about 20 minutes to build and uses 12Gb of disk
 1. wget "https://raw.githubusercontent.com/cbaldie/fastai-v2-build/master/build-ubuntu16-04-python3-6-3-pytorch.sh" -O "build-ubuntu16-04-python3-6-3-pytorch.sh"
 2. bash build-ubuntu16-04-python3-6-3-pytorch.sh
 3. enter your password into the command line
@@ -15,6 +16,6 @@
 
 
 ### background
-. this is setup for running on a p2.xlarge on AWS with NVIDIA GPU
+. this is setup and tested for running on a p2.xlarge on AWS with NVIDIA GPU
 . python libraries are compiled from source and all required dependancies are included
 . by adding most of the Anaconda libraries this runs ML batches fairly reliably

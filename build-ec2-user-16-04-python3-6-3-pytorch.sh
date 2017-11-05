@@ -9,7 +9,7 @@ source ~/.bashrc
 ## at the end of the install, log onto the console and run the following to
 ## set the jupyter notebook password, otherwise you won't be able to log on
 ## 
-
+##  ***** use this build for AWS machines with the ec2-user username *****
 
 
 ## set up some folders
@@ -17,8 +17,8 @@ source ~/.bashrc
 sudo mkdir ~/downloads
 
 sudo mkdir ~/data
-sudo bash -c 'chown -R ubuntu ~/data'
-sudo bash -c 'chown -R ubuntu ~/downloads'
+sudo bash -c 'chown -R ec2-user ~/data'
+sudo bash -c 'chown -R ec2-user ~/downloads'
 
 
 ## fecth the data
