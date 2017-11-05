@@ -32,7 +32,7 @@ sudo wget "http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x8
 sudo -i  apt-get update
 sudo -i DEBIAN_FRONTEND=noninteractive apt-get -y -o Dpkg::Options::="--force-confdef" -o Dpkg::Options::="--force-confold" dist-upgrade
 
-sudo -i apt-get --assume-yes install tmux build-essential gcc g++ make binutils htop zip 
+sudo -i apt-get --assume-yes install tmux build-essential gcc g++ make binutils htop zip p7zip-rar
 sudo -i apt-get --assume-yes install software-properties-common
 
 ## install cuda
@@ -253,6 +253,9 @@ sudo -H python3.6 -m pip  install torchtext
 
 ## install awscli
 sudo -H python3.6 -m pip install awscli
+
+## install Kaggle cli
+sudo -H python3.6 -m pip install kaggle-cli
 
 
 ## installs ffmpeg for visualisations
