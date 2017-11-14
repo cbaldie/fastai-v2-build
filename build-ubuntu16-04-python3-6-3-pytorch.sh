@@ -105,6 +105,7 @@ sudo -H python3.6 -m pip install flask
 sudo -H python3.6 -m pip install flask-cors
 sudo -H python3.6 -m pip install gevent
 sudo -H python3.6 -m pip install glob2
+sudo -H python3.6 -m pip install graphviz
 sudo -H python3.6 -m pip install greenlet
 sudo -H python3.6 -m pip install h5py
 sudo -H python3.6 -m pip install heapdict
@@ -210,6 +211,7 @@ sudo -H python3.6 -m pip install simplegeneric
 sudo -H python3.6 -m pip install singledispatch
 sudo -H python3.6 -m pip install sip
 sudo -H python3.6 -m pip install six
+sudo -H python3.6 -m pip install sklearn_pandas
 sudo -H python3.6 -m pip install snowballstemmer
 sudo -H python3.6 -m pip install sortedcollections
 sudo -H python3.6 -m pip install sortedcontainers
